@@ -1,23 +1,32 @@
 What happens when you initialize a repository? Why do you need to do it?
 
     The .git folder is added to the directory. This is needed to store all the
-commit and revision metadata for the project.
+    commit and revision metadata for the project.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
     The staging area is different from the working directory because it has
-files that are marked to be committed. It is different from the repository 
-because the files have not yet been committed. It is valuable because it
-allows you to leave unnecessary modified files out of a commit.
+    files that are marked to be committed. It is different from the repository 
+    because the files have not yet been committed. It is valuable because it
+    allows you to leave unnecessary modified files out of a commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    If a modified file isn't part off a logical change it can be left out of 
+    the staging area so it isn't included in the commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    Branches would be useful if I want to working on experimental branches
+    while keeping a working copy a quick checkout away.
+
 How do the diagrams help you visualize the branch structure?
+
+    It helps keep track of what commits belong to which branch and where the
+    branches are connected.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
