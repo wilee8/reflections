@@ -34,4 +34,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    With a separate branch, I can make separate commits that work to varying 
+    degrees without worrying about breaking the master branch. Also, this
+    gives the people in charge of master the ability to review and approve
+    changes from the separate branch before merging them in to master.
